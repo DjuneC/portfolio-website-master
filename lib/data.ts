@@ -67,6 +67,7 @@ export const projectsData = [
       "web project that connects users to share creative prompts and ignite inspiration within an online community. It showcases my web development skills and passion for nurturing creativity.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: promptshareImg,
+    url: "https://promptshare-iota.vercel.app/" || "#",
   },
   {
     title: "rmtDev",
@@ -74,6 +75,7 @@ export const projectsData = [
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: lamamiaImg,
+    url: "https://lamamia-nine.vercel.app/" || "#",
   },
   {
     title: "Joana Hair Braiding",
@@ -81,6 +83,7 @@ export const projectsData = [
       "web project for a beauty industry client, emphasizing braiding services. It includes a braided hairstyle gallery and user-friendly appointment booking.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: joanaBraidImg,
+    url: "https://joana-braid.vercel.app/" || "#",
   },
 ] as const;
 
