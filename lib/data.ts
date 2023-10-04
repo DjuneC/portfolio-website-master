@@ -5,6 +5,9 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import promptshareImg from "@/public/promptshare.jpg";
+import lamamiaImg from "@/public/lamamia.jpg";
+import joanaBraidImg from "@/public/joana-braid.jpg";
 
 export const links = [
   {
@@ -62,25 +65,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "PromptShare",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "web project that connects users to share creative prompts and ignite inspiration within an online community. It showcases my web development skills and passion for nurturing creativity.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    imageUrl: promptshareImg,
   },
   {
     title: "rmtDev",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    imageUrl: lamamiaImg,
   },
   {
-    title: "Word Analytics",
+    title: "Joana Hair Braiding",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "web project for a beauty industry client, emphasizing braiding services. It includes a braided hairstyle gallery and user-friendly appointment booking.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: joanaBraidImg,
   },
 ] as const;
 
