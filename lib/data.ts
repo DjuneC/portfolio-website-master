@@ -70,9 +70,9 @@ export const projectsData = [
     url: "https://promptshare-iota.vercel.app/" || "#",
   },
   {
-    title: "rmtDev",
+    title: "Lamamia",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Sample frontend project that showcase my frontend abilities.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: lamamiaImg,
     url: "https://lamamia-nine.vercel.app/" || "#",
