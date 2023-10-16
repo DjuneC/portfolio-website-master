@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import promptshareImg from "@/public/promptshare.jpg";
-import lamamiaImg from "@/public/lamamia.jpg";
+import lamamiaImg from "@/public/Travel App.png";
 import joanaBraidImg from "@/public/joana-braid.jpg";
 
 export const links = [
@@ -70,10 +70,10 @@ export const projectsData = [
     url: "https://promptshare-iota.vercel.app/" || "#",
   },
   {
-    title: "Lamamia",
+    title: "Hilink",
     description:
       "Sample frontend project that showcase my frontend abilities.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
     imageUrl: lamamiaImg,
     url: "https://lamamia-nine.vercel.app/" || "#",
   },
