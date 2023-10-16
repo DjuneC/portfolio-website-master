@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import promptshareImg from "@/public/promptshare.jpg";
-import lamamiaImg from "@/public/Travel App.png";
+import lamamiaImg from "@/public/travel-app.png";
 import joanaBraidImg from "@/public/joana-braid.jpg";
 
 export const links = [
@@ -62,20 +62,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Hilink",
+    description:
+      "Sample frontend project that showcase my frontend abilities.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
+    imageUrl: lamamiaImg,
+    url: "https://explora-tour.vercel.app" || "#",
+  },
+  {
     title: "PromptShare",
     description:
       "web project that connects users to share creative prompts and ignite inspiration within an online community. It showcases my web development skills and passion for nurturing creativity.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: promptshareImg,
     url: "https://promptshare-iota.vercel.app/" || "#",
-  },
-  {
-    title: "Hilink",
-    description:
-      "Sample frontend project that showcase my frontend abilities.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
-    imageUrl: lamamiaImg,
-    url: "https://lamamia-nine.vercel.app/" || "#",
   },
   {
     title: "Joana Hair Braiding",
